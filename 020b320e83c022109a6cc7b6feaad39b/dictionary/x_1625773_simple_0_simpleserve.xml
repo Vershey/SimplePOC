@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9b6b3a0e83c022109a6cc7b6feaad3ca" label="SimpleServe" max_length="40" name="x_1625773_simple_0_simpleserve" type="collection">
+        <element default="Varshan" label="Name" max_length="40" name="name" type="string"/>
+        <element choice="3" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+            </choice>
+        </element>
+        <element default="1999-07-16" display="true" label="DOB" max_length="255" name="dob" type="glide_date"/>
+    </element>
+</database>
